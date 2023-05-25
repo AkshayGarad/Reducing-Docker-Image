@@ -83,7 +83,7 @@ EXPOSE 3000
 CMD ["yarn", "start"]
 ```
 Then we build our image and see the size as we did before.
-![image with node-alpine](https://github.com/your-username/your-repository/images/node-alpine-image.png)
+![image with node-alpine](https://github.com/AkshayGarad/Reducing-Docker-Image/blob/main/1__QtpyfIggG5K-O0UwT79yw.png)
 
 Wow! Our image size is reduced to 580MB only. That’s a great improvement. But can we do better?
 
