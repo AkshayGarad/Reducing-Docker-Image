@@ -64,7 +64,7 @@ We used node:12 as our base image in the previous configuration. But traditional
 From the DockerHub (Official docker image registry), we can see that Alpine-based images are much smaller than Ubuntu-based images, and they are packaged with just the minimum dependency.
 
 A comparison between the size of these base images is shown below.
-![node:12 vs node:12-alpine](https://github.com/your-username/your-repository/images/base-image-comparison.png)
+![node:12 vs node:12-alpine](https://github.com/AkshayGarad/Reducing-Docker-Image/blob/main/alpine%2012%20-%201.png)
 
 Now we will use node:12-alpine as our base image and see what happens.
 ```
