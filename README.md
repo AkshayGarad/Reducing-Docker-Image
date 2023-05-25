@@ -129,7 +129,7 @@ In the first stage, we install the dependencies and build our project In the sec
 This way, we don’t have unnecessary dependencies and codes inside our final image.
 
 Next, we build our image and see the image from the list as before
-![Image with multi-stage build](https://github.com/your-username/your-repository/images/multistage-image.png)
+![Image with multi-stage build](https://github.com/AkshayGarad/Reducing-Docker-Image/blob/main/multi%20stage%20build.png)
 
 Now our image size is 97.5MB only. How great is that?
 
