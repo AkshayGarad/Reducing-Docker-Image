@@ -168,7 +168,7 @@ CMD ["nginx", "-g", "daemon off;"]
 We are changing the second stage of our docker configuration to serve our application using Nginx.
 
 Then we build our image using this current configuration.
-![Final Docker Image Size](https://github.com/your-username/your-repository/images/final-image.png)
+![Final Docker Image Size](https://github.com/AkshayGarad/Reducing-Docker-Image/blob/main/Using%20NGINX.png)
 
 The image size is reduced to 22.4MB only!
 
