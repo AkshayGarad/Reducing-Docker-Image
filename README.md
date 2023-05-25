@@ -182,4 +182,4 @@ docker run --rm  -it -p 3000:80/tcp docker-image-test:latest
 Notice we are exposing the container's 80 port to the outside as Nginx, by default, will be available on port 80 inside the container.
 So these are some easy tricks you can apply to any of your NodeJS projects to reduce the image size by a huge margin. Now your container is truly more portable and efficient.
 
-That’s it for today. Happy Coding!
+That’s it for today. Happy automating and orchestrating!
