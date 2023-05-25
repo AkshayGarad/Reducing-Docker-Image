@@ -1,6 +1,4 @@
-How I Reduced Docker Image Size from 1.43 GB to 22.4 MB
-
-# How I Reduced Docker Image Size from 1.43 GB to 22.4 MB
+# Reducing Docker Image Size for ReactJS Application
 
 If you are working in web development, then you probably already know about the idea of containerization and how it’s so great and everything.
 
