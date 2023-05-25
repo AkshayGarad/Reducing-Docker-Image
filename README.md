@@ -90,9 +90,7 @@ Wow! Our image size is reduced to 580MB only. That’s a great improvement. But 
 ## Step 4. Multistage Build
 In our previous configurations, we were copying all of our source codes into the working directory.
 
-But it’s unnecessary as we only need the build folder to serve our website. So now
-
-, we will use the concept of multi-stage build to cut down the unnecessary code and dependencies from our final image.
+But it’s unnecessary as we only need the build folder to serve our website. So now, we will use the concept of multi-stage build to cut down the unnecessary code and dependencies from our final image.
 
 The configuration will look something like this.
 
@@ -126,9 +124,7 @@ EXPOSE 3000
 
 CMD webserver.local -d ./build
 ```
-In the first stage, we install the dependencies and build our project
-
-In the second stage, we copy the contents of the build folder from the previous stage and use that to serve our application.
+In the first stage, we install the dependencies and build our project In the second stage, we copy the contents of the build folder from the previous stage and use that to serve our application.
 
 This way, we don’t have unnecessary dependencies and codes inside our final image.
 
